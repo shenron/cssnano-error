@@ -1,0 +1,18 @@
+{
+  "name": "cssnanon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "cssnano": "^4.1.10"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1"
+  },
+  "scripts": {
+    "build": "postcss style.css && exit 0"
+  },
+  "author": "",
+  "license": "ISC"
+}
